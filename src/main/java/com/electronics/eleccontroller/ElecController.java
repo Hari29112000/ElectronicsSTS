@@ -19,7 +19,7 @@ public class ElecController {
 	@Autowired
 	ElecServices es;
 	
-	@PostMapping ("postele")
+	@PostMapping (value="/postle")
 	
 	public String insertElec(@RequestBody List<ElectronicsEntity> e ) {
 		
